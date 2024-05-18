@@ -1,0 +1,15 @@
+#root {
+  margin: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  gap: 10rem;
+  justify-content: center
+}
+.Card img {
+  width: 100%; 
+  height: auto; 
+}

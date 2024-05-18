@@ -1,0 +1,11 @@
+.number {
+    background-color: white;
+    color: #ff0000;
+    padding: .3rem;
+    border-radius: 30%;
+}
+
+.cart{
+    padding: auto;
+    color: white;
+}

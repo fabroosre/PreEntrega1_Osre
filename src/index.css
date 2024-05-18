@@ -1,0 +1,38 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+}
+
+button {
+  border-radius: .5rem;
+  border: .0625rem solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 1s;
+}
+button:hover {
+  border-color: #cd77ff;
+  font-size: 2em;
+}
+button:focus,
+button:focus-visible {
+  outline: .625rem auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #525a4a;
+    background-color: #dddcdc;
+  }
+  
+  button {
+    background-color: #74721c;
+  }
+}
+
